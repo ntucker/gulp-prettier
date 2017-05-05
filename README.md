@@ -1,4 +1,4 @@
-# Gulp Prettier [![Build Status](https://travis-ci.org/bhargavrpatel/gulp-prettier.svg?branch=master)](https://travis-ci.org/bhargavrpatel/gulp-prettier)
+# Gulp Prettiest [![Build Status](https://travis-ci.org/ntucker/gulp-prettiest.svg?branch=master)](https://travis-ci.org/ntucker/gulp-prettiest)
 
 A [Gulp](http://gulpjs.com/) plugin which allows the users to use [Prettier](https://github.com/jlongster/prettier).
 
@@ -11,7 +11,7 @@ Simply pipe the input, and pass in arguments that you would to the regular forma
 
 ```js
 const gulp = require('gulp'),
-  prettier = require('gulp-prettier');
+  prettier = require('gulp-prettiest');
 
 gulp.task('default', () => {
 	gulp.src('*.js')
@@ -46,4 +46,4 @@ Please consult the [Prettier](https://github.com/jlongster/prettier) README to k
 
 ## License
 
-[MIT License](https://raw.githubusercontent.com/bhargavrpatel/gulp-prettier/master/LICENSE)
+[MIT License](https://raw.githubusercontent.com/ntucker/gulp-prettiest/master/LICENSE)
